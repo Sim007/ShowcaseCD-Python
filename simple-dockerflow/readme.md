@@ -8,4 +8,16 @@ Not working anymore?
 
 # Build and Run with Docker Desktop
 
+```
+cd ShowcaseCD-Python
+```
+Build with:
+```
+docker build -t pythondemo .
+```
+Run with:
+```
+docker container run -p 
+```
+
 # Build and Run with docker 
