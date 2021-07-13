@@ -19,11 +19,16 @@ cd ShowcaseCD-Python
 ```
 Build with:
 ```
+cd simple-dockerflow
 docker build -t pythondemo .
 ```
 Run with:
 ```
-docker container run -p 
+docker container run -p 5000:5000 pythondemo
+```
+Show in browser with:
+```
+localhost:5000
 ```
 
 # Build and Run with docker 
