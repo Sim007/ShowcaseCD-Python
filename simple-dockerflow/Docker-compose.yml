@@ -1,7 +1,6 @@
-version: "3.9"
+#version: "3.9"
 services: 
     web:
         image: sim007/pythondemo:1.0.0.0
         ports:
             - "5000:5000"
-#
